@@ -5,7 +5,7 @@
 %include "gnuradio.i"			// the common stuff
 
 //load generated python docstrings
-%include "rtty_swig_doc.i"
+//%include "rtty_swig_doc.i"
 
 %{
 #include "rtty/rtty_decode_ff.h"

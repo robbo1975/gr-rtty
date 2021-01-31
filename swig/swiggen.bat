@@ -1,0 +1,2 @@
+@echo off
+..\..\swigwin-4.0.2\swig.exe -module rtty_swig -c++ -python -I"D:\Program Files\GNURadio-3.7\include\gnuradio\swig" -I"D:\gnuradio\vs\gr-rtty\include" -I"D:\Program Files\GNURadio-3.7\include" -I"D:\local\boost_1_66_0\boost" rtty_swig.i
