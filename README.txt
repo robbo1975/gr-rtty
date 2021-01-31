@@ -67,3 +67,5 @@ copy D:\gnuradio\vs\gr-rtty\python\__init__.py to D:\Program Files\GNURadio-3.7\
 copy D:\gnuradio\vs\gr-rtty\swig\rtty_swig.py D:\Program Files\GNURadio-3.7\lib\site-packages\rtty
 copy and rename D:\gnuradio\vs\gr-rtty\x64\Release\rtty_swig.dll D:\Program Files\GNURadio-3.7\lib\site-packages\rtty\_rtty_swig.pyd
 copy D:\gnuradio\vs\gr-rtty\grc\*.xml D:\Program Files\GNURadio-3.7\share\gnuradio\grc\blocks
+
+![gr-rtty](/decoding.png)
