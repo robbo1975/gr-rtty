@@ -225,7 +225,7 @@ class rtty_decode(gr.top_block, Qt.QWidget):
         self.top_grid_layout.addWidget(self._qtgui_freq_sink_x_0_win)
         self.low_pass_filter_0 = filter.fir_filter_fff(decimation, firdes.low_pass(
         	4, samp_rate, bps*3, bps, firdes.WIN_BLACKMAN, 6.76))
-        self.gr_wavfile_source_0 = blocks.wavfile_source('.\\rtty_audio.wav', True)
+        self.gr_wavfile_source_0 = blocks.wavfile_source('D:\\gnuradio\\vs\\gr-rtty\\apps\\rtty_audio.wav', True)
         self.gr_quadrature_demod_cf_0 = analog.quadrature_demod_cf(4)
         self.gr_hilbert_fc_0 = filter.hilbert_fc(65, firdes.WIN_BLACKMAN, 6.76)
         self.freq_xlating_fir_filter_xxx_0 = filter.freq_xlating_fir_filter_ccc(1, ([1]), 555 + (170/2), samp_rate)
